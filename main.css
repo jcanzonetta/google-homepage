@@ -38,6 +38,11 @@
     margin-left: 14px;
 }
 
+#search-buttons{
+    display:flex;
+    margin-right: 14px;
+}
+
 .search-buttons{
     width: 44px;
     height: 44px;
