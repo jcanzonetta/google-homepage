@@ -78,14 +78,41 @@
     width: 24px;
 }
 
+#search-submit{
+    margin: auto;
+}
+
+#submit-svg{
+    margin:auto;
+}
+
 #bottom-header{
+    margin-top: 75px;
     display:flex;
+    justify-content: space-between;
 }
 
 #search_modes{
     display:flex;
+    justify-content: space-evenly;
+    flex-grow:2;
 }
 
 #settings_tools{
     display:flex;
+    justify-content: center;
+    flex-grow: 1;
 }
+
+#search_settings{
+    padding-right: 10px;
+}
+
+#search_tools{
+    padding-left: 10px;
+}
+
+#safe_search{
+    flex-grow:1;
+    text-align:right;
+ }
