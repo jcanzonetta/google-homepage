@@ -3,6 +3,7 @@
     <head>
         <title>[TESTING] yosemite - Google Search</title>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <meta charset="UTF-8">
     </head>
 
     <body>
@@ -18,7 +19,7 @@
                 <form id="search-form">
                     <input class="search-form" id="search-bar" placeholder="yosemite" for="search_query">
                     <div class="search-form" id="search-buttons">
-                        <button class="search-buttons" type="reset" value="reset">
+                        <button form="search-form" class="search-buttons" type="reset" value="reset">
                             <img src="images/x.png" id="search-reset-image">
                         </button>
                         <button class="search-buttons" type="submit" id="search-reset" value="submit">
@@ -29,7 +30,7 @@
                 </form> 
 
                 <div id="profile-pic">
-                    <img src="images/profile_pic.png">
+                    <img id="profile-picpic" src="images/profile_pic.png">
                 </div>
             </div>
 
