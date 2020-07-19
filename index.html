@@ -2,31 +2,37 @@
 <html>
     <head>
         <title>[TESTING] yosemite - Google Search</title>
-        <link rel="style sheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
     </head>
 
     <body>
-        <div id="top-header"> <!-- The header of the document, including search bar
+        <div id="header"> <!-- The header of the document, including search bar
                                    and search options.-->
-            <div id="g_logo">
-                <a href="https://www.google.com/" alt="Google Homepage">
-                    <img src="images/googlelogo_color_92x30dp.png">
-                </a>
+            <div id="top-header">
+                <div id="g_logo">
+                    <a href="https://www.google.com/" alt="Google Homepage">
+                        <img src="images/googlelogo_color_92x30dp.png">
+                    </a>
+                </div>
+
+                <form id="search-form">
+                    <input class="search-form" id="search-bar" placeholder="yosemite" for="search_query">
+                    <div class="search-form" id="search-buttons">
+                        <button class="search-buttons" type="reset" value="reset">
+                            <img src="images/x.png" id="search-reset-image">
+                        </button>
+                        <button class="search-buttons" type="submit" id="search-reset" value="submit">
+                            Submit <!--Can't find the image file for the
+                            magnifying glass.-->
+                        </button>
+                    </div>
+                </form> 
+
+                <div id="profile-pic">
+                    <img src="images/profile_pic.png">
+                </div>
             </div>
-            <form id="search-form">
-                <input placeholder="yosemite" for="search_query">
-                <button type="reset" value="reset">
-                    <img src="images/x.png">
-                </button>
-                <button type="submit" value="submit">
-                    Submit <!--Can't find the image file for the
-                    magnifying glass.-->
-                </button>
-            </form> 
-            <div id="profile-pic">
-                <img src="images/profile_pic.png">
-            </div>
-            
+
             <div id="bottom-header">
                 <div id="search_modes">
                     <div id="search_all">
